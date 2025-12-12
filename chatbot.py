@@ -1,7 +1,7 @@
 import requests, json
 
 def ask_llm(prompt, model="gemma3:1b"):
-    url = "http://localhost:11434/api/generate"
+    url = "http://localhost:"
     payload = {"model": model, "prompt": prompt}
     response = requests.post(url, json=payload, stream=True)
 
