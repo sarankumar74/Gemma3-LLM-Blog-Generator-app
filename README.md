@@ -140,3 +140,11 @@ Run Streamlit app:
 ```
 streamlit run app/app.py
 ```
+
+
+---
+
+## 🔒 Notes
+- Runs completely **offline**
+- No API keys required  
+- Designed for local LLM experimentation and prompt tuning
